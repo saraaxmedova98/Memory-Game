@@ -43,7 +43,7 @@ var imgItems = $("img");
 imgItems.addClass("match");
 function setTimer() {
     setTimeout(function() {
-        var timer = 50;
+        var timer = 30;
         var id = setInterval(function() {
         timer--;
         $(".timer").text(timer);
