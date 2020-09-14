@@ -2,13 +2,14 @@ html,body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #ccc;
 }
 
 .container {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 20px auto;
   }
   .divs {
@@ -65,5 +66,9 @@ html,body{
     border: double;
     background-color: rgb(216, 211, 211);
     font-size: 20px;
+    transition: all .2s ease-in-out;
   }
-
+.btn:hover{
+  background-color: dimgrey;
+  color: #fff;
+}
